@@ -2,7 +2,7 @@ name: Print workflow #Название workflow
 on: workflow_dispatch #Триггер, который будет вызывать workflow
 
 jobs: #Начало секции джобов
-  print_hello: #Название джоба
+  print_hello1: #Название джоба
     runs-on: ubuntu-latest #Среда выполнения джоба
     
     steps: #Начало секции шагов
