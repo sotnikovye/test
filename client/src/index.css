@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-mint: #B4E7D1;
   --color-peach: #FFDAB9;
   --color-cream: #FFFDD0;
@@ -15,6 +15,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, var(--color-cream), white);
+  min-height: 100vh;
 }
 
 * {
