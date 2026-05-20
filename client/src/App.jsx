@@ -38,7 +38,7 @@ function App() {
           </main>
           <footer className="bg-brown text-cream py-8 mt-16">
             <div className="container mx-auto px-4 text-center">
-              <p>&copy; 2025 AI Books. Все права защищены.</p>
+              <p>&copy; 2026 AI Books. Все права защищены.</p>
               <p className="mt-2 text-sm">Персонализированные книги с искусственным интеллектом</p>
             </div>
           </footer>
