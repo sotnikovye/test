@@ -94,31 +94,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Color Schemes */}
-      <section className="bg-gradient-to-r from-cream to-white rounded-3xl p-8 shadow-lg">
-        <h2 className="text-3xl font-bold text-center text-brown mb-8">Цветовые схемы на выбор</h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <div className="h-32 bg-gradient-to-r from-white via-mint to-peach"></div>
-            <div className="p-4 text-center">
-              <h3 className="font-bold text-brown">Мятный & Персиковый</h3>
-            </div>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <div className="h-32 bg-gradient-to-r from-cream via-brown to-gold"></div>
-            <div className="p-4 text-center">
-              <h3 className="font-bold text-brown">Сливочный & Золотой</h3>
-            </div>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <div className="h-32 bg-gradient-to-r from-white via-raspberry to-pistachio"></div>
-            <div className="p-4 text-center">
-              <h3 className="font-bold text-brown">Малиновый & Фисташковый</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="text-center py-12 bg-gradient-to-r from-brown to-gold rounded-3xl shadow-xl text-cream">
         <h2 className="text-3xl font-bold mb-4">Готовы создать волшебную книгу?</h2>

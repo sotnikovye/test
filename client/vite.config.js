@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: true, // Открывает доступ из внешней сети (0.0.0.0)
+    allowedHosts: ['all'], // Разрешает доступ с любых хостов
     port: 3000,
     strictPort: false, // Если порт занят, Vite попробует следующий
     proxy: {
