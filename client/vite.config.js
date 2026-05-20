@@ -9,6 +9,7 @@ export default defineConfig({
     port: 3000,
     allowedHosts: true,
     strictPort: false, // Если порт занят, Vite попробует следующий
+    allowedHosts: true,
     proxy: {
       '/api': {
         target: 'http://localhost:5000',
