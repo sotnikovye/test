@@ -38,19 +38,19 @@ export default function HomePage() {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-      <section className="text-center py-16 bg-gradient-to-r from-mint via-peach to-cream rounded-3xl shadow-xl">
-        <h1 className="text-5xl md:text-6xl font-bold text-brown mb-6">
+      <section className="text-center py-12 sm:py-16 bg-gradient-to-r from-mint via-peach to-cream rounded-2xl sm:rounded-3xl shadow-xl px-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-brown mb-4 sm:mb-6 leading-tight">
           Персонализированные книги с ИИ
         </h1>
-        <p className="text-xl text-brown mb-8 max-w-3xl mx-auto">
+        <p className="text-base sm:text-xl text-brown mb-6 sm:mb-8 max-w-3xl mx-auto px-2">
           Создайте уникальную развивающую сказку, где ваш ребенок — главный герой! 
           Выберите жанр, добавьте фотографии и получите волшебную книгу за несколько минут.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link to="/catalog" className="bg-brown text-cream px-8 py-4 rounded-full text-lg font-semibold hover:bg-gold hover:text-brown transition-all transform hover:scale-105 shadow-lg">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center w-full max-w-md sm:max-w-none mx-auto px-2">
+          <Link to="/catalog" className="w-full sm:w-auto bg-brown text-cream px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-gold hover:text-brown transition-all transform hover:scale-105 shadow-lg whitespace-nowrap">
             Выбрать книгу
           </Link>
-          <Link to="/book-builder" className="bg-gradient-to-r from-raspberry to-pistachio text-white px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition-all transform hover:scale-105 shadow-lg">
+          <Link to="/book-builder" className="w-full sm:w-auto bg-gradient-to-r from-raspberry to-pistachio text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:opacity-90 transition-all transform hover:scale-105 shadow-lg whitespace-nowrap">
             Создать свою книгу
           </Link>
         </div>
