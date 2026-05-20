@@ -1,116 +1,79 @@
 ```
+# Generated files
+src/data/generatedBooks.json
+client/src/data/generatedBooks.json
+
+# Build artifacts
+dist/
+build/
+*.js.map
+
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
-
-# Environment variables
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Python specific
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-.MF
-tags
-TAGS
-.pytest_cache/
-.mypy_cache/
+*.so
+*.egg-info/
+.eggs/
 
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Temporary files
 *.tmp
-
-# OS generated files
+*.temp
+*~
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-lib-cov
+# Testing
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
 coverage/
 
-# nyc test coverage
-.nyc_output
-
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
-
-# node-waf configuration
-.lock-wscript
-
-# Compiled binary addons (https://github.com/nodejs/node-gyp)
-build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Typescript v1 declaration files
-typings/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# JSHint
-.jshintrc
-
-# JSCS
-.jscsrc
-
-# Karma
-karma-debug.html
-
-# Sass
-.sass-cache
-
-# CSS and JS preprocessor minified assets
-*.min.css
-*.min.js
-
-# End of build artifacts section
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
