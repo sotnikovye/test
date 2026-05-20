@@ -1,41 +1,4 @@
 ```
-# Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-build/
-coverage/
-htmlcov/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-.pytest_cache/
-.mypy_cache/
-
-# Temporary files
-*.tmp
-*~
-.DS_Store
-Thumbs.db
+# Generated files
+src/data/generatedBooks.json
 ```
